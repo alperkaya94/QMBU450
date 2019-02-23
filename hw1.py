@@ -133,16 +133,3 @@ class Bond(Portfolio):
     
 
 
-asd = Portfolio()
-asd.addCash(100)
-
-s = Stock(2,"DLLD")
-mf = MutualFund("Daaa")
-mf2 = MutualFund("asd")
-asd.buyMutualFund(10.1, mf2)
-asd.buyMutualFund(20.7, mf)
-asd.sellMutualFund(10, mf)
-asd.buyStock(20, s)
-asd.sellStock(10, s)
-print(asd)
-asd.history()
